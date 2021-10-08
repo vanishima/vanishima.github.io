@@ -69,14 +69,9 @@ header{
 
 div.home-section {
     border-bottom: 1px solid rgba(100,100,100, 0.5);
-    width: 600px;
-    /*background-color: #FFFFFF;*/
+    width: 700px;
     padding: 10px;
     margin: 5px;
-}
-
-section.resume-item {
-    padding: 0 5px;
 }
 
 .right-end, .date {
@@ -107,8 +102,10 @@ p.gallery-text {
 
 img {
     position: relative;
-    object-fit: scale-down;
-    max-width: 200px;
+    object-fit: contain;
+    width: 300px;
+    height: auto;
+    /*max-height: 400px;*/
 }
 
 footer {

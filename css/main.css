@@ -42,6 +42,10 @@ a.btn {
 	color: #A08787;
 }
 
+figure.desk-item:hover {
+	background-color: #EEE7E7;
+}
+
 
 header{
 	font-size: 12px;
@@ -65,11 +69,9 @@ header h2 {
 	max-width: 300px;
 	padding: 10px;
 	color: #FFFFFF;
-	/*border: 1px solid black;*/
 }
 
 div.home-section {
-	border-bottom: 1px solid rgba(100,100,100, 0.5);
 	width: 600px;
 	background-color: #FFFFFF;
 	padding: 10px;
@@ -77,8 +79,28 @@ div.home-section {
 	display: none;
 }
 
+div.resume-section {
+	border-bottom: 1px solid rgba(100,100,100, 0.5);
+	padding: 10px;
+}
+
+div.resumeDiv {
+	display: none;
+}
+
 section.resume-item {
-	padding: 0 5px;
+	padding: 0 15px;
+}
+
+section.desk-item {
+	align-items: center;
+}
+
+img {
+    position: relative;
+    object-fit: scale-down;
+    max-width: 100px;
+    height: 160px;
 }
 
 .right-end, .date {
@@ -109,9 +131,12 @@ span.italic {
 	font-style: italic;
 }
 
-span.technical-term {
-	font-weight: bold;
-	/*font-family: courier;*/
+span.desk-author {
+	font-size: 13px;
+}
+
+p.desk-title {
+	font-size: 14px;
 }
 
 p.gpa {
@@ -161,7 +186,16 @@ img.logo {
 	padding-right: 0;
 }
 
+img.sns-icon {
+	width: 30px;
+}
+
 .date {
+	font-size: 12px;
+}
+
+p.credit {
+	color: #000000;
 	font-size: 12px;
 }
 
@@ -175,7 +209,7 @@ footer .col-sm-8 {
   justify-content: flex-end;
 }
 
-footer ul, header ul {
+footer ul {
   list-style: none;
 }
 

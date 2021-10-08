@@ -1,6 +1,6 @@
 // alert("Alert Test");
 
-var contentStr = ["educationDiv","deskDiv", "skillsDiv", "experienceDiv", "projectsDiv"];
+var contentStr = ["resumeDiv", "deskDiv", "contactsDiv"];
 
 // show ONLY the content toShow, hide all other contents
 function navClick(toShow) {
