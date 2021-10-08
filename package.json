@@ -10,8 +10,8 @@
     "type": "git",
     "url": "git+https://github.com/vanishima/homepageShushuChen.git"
   },
-  "author": "",
-  "license": "ISC",
+  "author": "Shushu Chen",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/vanishima/homepageShushuChen/issues"
   },
