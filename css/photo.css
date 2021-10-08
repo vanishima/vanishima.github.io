@@ -97,15 +97,20 @@ ul .text-center{
 p.gallery-text {
     position: relative;
     color: #FFFFFF;
-    font-size: 14px;
+    font-size: 16px;
 }
 
-img {
+img.image-normal {
     position: relative;
     object-fit: contain;
     width: 300px;
     height: auto;
     /*max-height: 400px;*/
+}
+
+img.image-large-horizontal {
+    width: 825px;
+    object-fit: contain;
 }
 
 footer {
