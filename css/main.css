@@ -60,7 +60,14 @@ header h2 {
   font-size: 60px;
   font-weight: 700;
   margin: 0;
-  color: #fff;
+  color: #FFFFFF;
+}
+
+.resumeSect h3{
+	text-align: center;
+	font-size: 24px;
+	color: #898989;
+	opacity: 0.9;
 }
 
 #introductionDiv{
@@ -70,35 +77,30 @@ header h2 {
 	color: #FFFFFF;
 }
 
-div.home-section {
+.home-section {
 	width: 720px;
 	padding: 10px;
 	margin: 5px;
 	/* For test */
-	/*display: none;*/
+	display: none;
 }
 
-/* For test */
-div.row{
-	/*border: 1px solid black;*/
-}
-
-div.resume-section {
+.resume-section {
 	/*border-bottom: 1px solid rgba(100,100,100, 0.5);*/
 	padding: 10px;
 	align-items: center;
 }
 
-div.resumeDiv {
+.resumeSect {
 	/* For test */
-	/*display: none;*/
+	display: none;
 }
 
-section.resume-item {
+.resume-item {
 	padding: 0 15px;
 }
 
-section.desk-item {
+.desk-item {
 	align-items: center;
 }
 
@@ -120,7 +122,6 @@ ul .text-center{
 	margin-left: auto;
 	margin-right: auto;
 }
-
 
 .home-section h2 {
 	margin: 5px;
@@ -150,18 +151,18 @@ p.gpa {
 	font-size: 14px;
 	font-style: italic;
 }
-
+/*
 div.school-detail {
 	margin: 0;
 	padding: 0;
-}
+}*/
 
 div, p.date {
 	/*border: 1px solid black;*/
 	margin: 0;
 }
 
-.deskDiv {
+.deskSect {
 	background-color: #FFFFFF;
 	opacity: 95%;
 }
@@ -186,30 +187,41 @@ div, p.date {
 }
 
 .resume-item-description {
-	font-size: 14px;
+	font-size: 16px;
+}
+
+.contactsSect h2 {
+	font-size: 40px;
+}
+
+.contactsSect p {
+	font-size: 20px;
+	text-align: center;
+}
+
+.contactsSect {
+	color: #FFFFFF;
+}
+
+.contacts-item {
+	margin: 20px;
+	padding: 20px;
 }
 
 div.logo-box {
-	/*padding-left: 10px;*/
 	margin-left: 10px;
-	/*border: 1px solid black;*/
 }
 
 img.logo {
 	object-fit: contain;
 	width: 90%;
 	height: 90%;
-	/*border: 1px solid black;*/
 	margin-right: 0;
 	padding-right: 0;
 }
 
 img.sns-icon {
 	width: 30px;
-}
-
-.date {
-	font-size: 13px;
 }
 
 p.credit {
