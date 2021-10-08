@@ -1,6 +1,4 @@
 * {
-	/*padding-left: 5px;*/
-	margin-left: 5px;
 	overflow-anchor: none;
 }
 
@@ -10,21 +8,10 @@ body {
 	background-position: center;
 	background-repeat: no-repeat;
 	background-attachment: fixed;
-  	background-size: cover;
+  background-size: cover;
 }
 
-section.home-section {
-	border-bottom: 1px solid rgba(100,100,100, 0.5);
-	align-self: center;
-	align-items: center;
-	width: 500px;
-	background-color: #FFFFFF;
-	margin-left: auto;
-	margin-right: auto;
-	padding: 5px;
-}
-
-ul .text-center{
+div.navigation-bar {
 	align-self: center;
 	align-items: center;
 	margin-left: auto;
@@ -32,29 +19,37 @@ ul .text-center{
 }
 
 nav {
-	max-width: 1000px;
 	align-self: center;
 	align-items: center;
 	margin-left: auto;
 	margin-right: auto;
+	border: 1px solid lavendar;
+	max-width: 700px;
 }
-/*
-nav.btn{
-	width: 10px;
-}*/
+
+li.nav-item:hover {
+  background-color: #BF3F3F;
+  opacity: 70%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+a.btn:hover {
+	color: #FFFFFF;
+}
+
+a.btn {
+	color: #A08787;
+}
+
 
 header{
 	font-size: 12px;
 	color: #ffffff;
-  text-shadow: 0.25px 0.25px 0.25px #000000;
+  /*text-shadow: 0.25px 0.25px 0.25px #000000;*/
   padding: 10px;
   align-items: center;
   text-align: center;
-}
-
-a.btn{
-	border: 1.5px solid black;
-	border-radius: 0%;
 }
 
 
@@ -65,11 +60,52 @@ header h2 {
   color: #fff;
 }
 
+#introductionDiv{
+	margin-top: 10px;
+	max-width: 300px;
+	padding: 10px;
+	color: #FFFFFF;
+	/*border: 1px solid black;*/
+}
+
+div.home-section {
+	border-bottom: 1px solid rgba(100,100,100, 0.5);
+	width: 600px;
+	background-color: #FFFFFF;
+	padding: 10px;
+	margin: 5px;
+	display: none;
+}
+
+section.resume-item {
+	padding: 0 5px;
+}
+
+.right-end, .date {
+	text-align: right;
+	padding: 0;
+}
+
+ul .text-center{
+	align-self: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+
 .home-section h2 {
 	text-align: center;
+	font-size: 24px;
+	border-bottom: 1.5px solid rgba(100,100,100, 0.5);
 }
 
 span.italic {
+	font-style: italic;
+	font-size: 12px;
+}
+
+.italic {
 	font-style: italic;
 }
 
@@ -78,13 +114,55 @@ span.technical-term {
 	/*font-family: courier;*/
 }
 
-span.gpa {
+p.gpa {
+	font-size: 14px;
 	font-size: small;
 	font-style: italic;
 }
 
-h4.school-name {
-	font-size: 17px;
+div.school-detail {
+	margin: 0;
+	padding: 0;
+}
+
+div, p.date {
+	/*border: 1px solid black;*/
+	margin: 0;
+}
+
+.resume-item {
+	min-width: 100px;
+}
+
+.resume-item-title {
+	font-size: 18px;
+}
+
+.resume-item-subtitle{
+	font-size: 14px;
+}
+
+.resume-item-description {
+	font-size: 14px;
+}
+
+div.logo-box {
+	/*padding-left: 10px;*/
+	margin-left: 10px;
+	/*border: 1px solid black;*/
+}
+
+img.logo {
+	object-fit: contain;
+	width: 90%;
+	height: 90%;
+	/*border: 1px solid black;*/
+	margin-right: 0;
+	padding-right: 0;
+}
+
+.date {
+	font-size: 12px;
 }
 
 footer {

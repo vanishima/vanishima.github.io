@@ -1,25 +1,129 @@
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="utf-8">
-    <title>Photography</title>
-    <link rel="stylesheet" type="text/css" href="./css/main.css">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-</head>
-<body id="photography">
-    <h1>Shushu Chen</h1>
-    <nav>
-        <a href="./index.html">Home</a>
-    </nav>
+    <head>
+        <meta charset="utf-8" />
+        <title>Shushu Chen's homepage</title>
+        <link rel="stylesheet" type="text/css" href="./css/photo.css" />
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+            crossorigin="anonymous"
+        />
+        <script type="text/javascript" src="./scripts/photo.js"></script>
+    </head>
+    <body id="homepage">
 
-    <section class="time-line">
-        <section class="trip">
-            <h4>Bolivia</h6>
-            <p class="trip-date">Jan, 2020</p>
-            <div class="trip-city">city 1</div>
-            <div class="trip-city">city 2</div>
-            <div class="trip-city">city 3</div>
-        </section>
-    </section>
-</body>
+        <header>
+            <section class="jumbotron">
+                <h1>Shushu Chen</h1>
+                <ul class="nav justify-content-center">
+                <li class="nav-item">
+                    <a id="btnHome" class="nav-link btn col-sm-2" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                    <!-- <a class="nav-link active" href="#">Active</a> -->
+                    <a id="btnEducation" class="nav-link active btn col-sm-2 disabled" onclick="navClick('educationDiv')">Education</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="btnSkills" class="nav-link btn col-sm-2 disabled" onclick="navClick('skillsDiv')">Skills</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="btnExperience" class="nav-link btn col-sm-2 disabled" onclick="navClick('experienceDiv')">Experience</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="btnProject" class="nav-link btn col-sm-2 disabled" onclick="navClick('projectsDiv')">Projects</a>
+                  </li>
+                  <li class="nav-item">
+                    <!-- <a class="nav-link disabled" href="#">Disabled</a> -->
+                    <a class="nav-link btn col-sm-2" href="./photo.html">Photography</a>
+                  </li>
+                  <li class="nav-item">
+                    <a id="btnContacts" class="nav-link active btn col-sm-2 " onclick="navClick('educationDiv')">Contacts</a>
+                  </li>
+                </ul>
+            </section>
+        </header>
+
+        <main class="container">
+            <div class="gallery home-section">
+                <section class="gallery-section row">
+                    <div class="col-sm-3">
+                        <!-- <p class="gallery-title">Bolivia</p> -->
+                        <h4 class="gallery-date">2020</h4>
+                    </div>
+                    
+                    <div class="col-sm-9  row">
+                        <div class="gallery-row row">
+                            <figure class="container gallery-item col-5">
+                                <img src="./images/gallery_uyuni.jpg" alt="photo of Uyuni Salt Flat">
+                                <p class="gallery-text">Uyuni Salt Flat</p>
+                            </figure>
+                            <div class="col"></div>
+                            <figure class="container gallery-item col-5">
+                                <img src="./images/gallery_lapaz.jpg" alt="photo of La Paz">
+                                <p class="gallery-text">La Paz</p>
+                            </figure>
+                        </div>
+
+                        <div class="gallery-row row">
+                            <figure class="container gallery-item col-sm-5">
+                                <img src="./images/gallery_machupicchu.jpg" alt="photo of Machu Picchu">
+                                <p class="gallery-text">Machu Picchu</p>
+                            </figure>
+                            <div class="col"></div>
+                            <figure class="container gallery-item col-sm-5">
+                                <img src="./images/gallery_cusco.jpg" alt="photo of Cusco">
+                                <p class="gallery-text">Cusco</p>
+                            </figure>
+                            
+                        </div>
+
+                        <div class="gallery-row row">
+                            <figure class="gallery-item col-sm-5">
+                                <img src="./images/gallery_laketiticaca.jpg" alt="photo of Machu Picchu">
+                                <p class="gallery-text">Lake Titicaca</p>
+                            </figure>
+                            <div class="col"></div>
+                            <figure class="gallery-item col-sm-5">
+                                <img src="./images/gallery_lima.jpg" alt="photo of Lima">
+                                <p class="gallery-text">Lima</p>
+                            </figure>
+                            
+                        </div>
+
+                    </div>
+
+                </section>
+                
+            </div>
+            
+        </main>
+
+
+        <footer class="container">
+            <div class="row">
+                <p class="col-sm-4">&copy; 2021 Shushu Chen</p>
+                <ul class="col-sm-8">
+                    <li class="col-sm-1">
+                        <a href="https://twitter.com/shushu_van" target="_blank"
+                            ><img
+                                src="https://content.codecademy.com/projects/make-a-website/lesson-4/twitter.svg"
+                                alt="twitter-icon"
+                        /></a>
+                    </li>
+                    <li class="col-sm-1">
+                        <a
+                            href="https://www.instagram.com/shushu_shoot/"
+                            target="_blank"
+                            ><img
+                                src="https://content.codecademy.com/projects/make-a-website/lesson-4/instagram.svg"
+                        /></a>
+                    </li>
+                </ul>
+            </div>
+        </footer>
+
+
+    </body>
 </html>

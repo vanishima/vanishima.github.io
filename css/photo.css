@@ -1,0 +1,132 @@
+* {
+    overflow-anchor: none;
+}
+
+body {
+    font-family: sans-serif;
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0 100%), url("/images/home-page-1.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    /*background-color:  rgba(0, 0, 0, 0.9);*/
+    /*background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);*/
+}
+
+div.navigation-bar {
+    align-self: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+nav {
+    align-self: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid lavendar;
+    max-width: 700px;
+}
+
+li.nav-item:hover {
+  background-color: #BF3F3F;
+  opacity: 70%;
+  text-align: center;
+  color: #FFFFFF;
+}
+
+a.btn:hover {
+    color: #FFFFFF;
+}
+
+a.btn {
+    color: #FFADAD;
+}
+
+
+header{
+    font-size: 12px;
+    color: #ffffff;
+    text-shadow: 0.25px 0.25px 0.25px #000000;
+    padding: 10px;
+    align-items: center;
+    text-align: center;
+}
+
+.gallery-date{
+    color: #FFFFFF;
+}
+
+
+#introductionDiv{
+    margin-top: 10px;
+    max-width: 300px;
+    padding: 10px;
+    color: #FFFFFF;
+    /*border: 1px solid black;*/
+}
+
+div.home-section {
+    border-bottom: 1px solid rgba(100,100,100, 0.5);
+    width: 600px;
+    /*background-color: #FFFFFF;*/
+    padding: 10px;
+    margin: 5px;
+}
+
+section.resume-item {
+    padding: 0 5px;
+}
+
+.right-end, .date {
+    text-align: right;
+    padding: 0;
+}
+
+ul .text-center{
+    align-self: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+.home-section h2 {
+    text-align: center;
+    font-size: 24px;
+    border-bottom: 1.5px solid rgba(100,100,100, 0.5);
+}
+
+
+p.gallery-text {
+    position: relative;
+    color: #FFFFFF;
+    font-size: 14px;
+}
+
+img {
+    position: relative;
+    object-fit: scale-down;
+    max-width: 200px;
+}
+
+footer {
+  font-size: 12px;
+  padding: 20px 0;
+  color: #FFFFFF;
+}
+
+footer .col-sm-8 {
+  display: flex;
+  justify-content: flex-end;
+}
+
+footer ul, header ul {
+  list-style: none;
+}
+
+footer li img {
+  width: 32px;
+  height: 32px;
+}
