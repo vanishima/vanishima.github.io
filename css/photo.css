@@ -4,13 +4,12 @@
 
 body {
     font-family: sans-serif;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0 100%), url("/images/home-page-1.jpg");
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0 100%),
+        url("/images/background/home-page-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
     background-size: cover;
-    /*background-color:  rgba(0, 0, 0, 0.9);*/
-    /*background: linear-gradient(to top, rgba(0, 0, 0, 0.85), transparent);*/
 }
 
 div.navigation-bar {
@@ -30,22 +29,21 @@ nav {
 }
 
 li.nav-item:hover {
-  background-color: #BF3F3F;
-  opacity: 70%;
-  text-align: center;
-  color: #FFFFFF;
+    background-color: #bf3f3f;
+    opacity: 70%;
+    text-align: center;
+    color: #ffffff;
 }
 
 a.btn:hover {
-    color: #FFFFFF;
+    color: #ffffff;
 }
 
 a.btn {
-    color: #FFADAD;
+    color: #ffadad;
 }
 
-
-header{
+header {
     font-size: 12px;
     color: #ffffff;
     text-shadow: 0.25px 0.25px 0.25px #000000;
@@ -54,50 +52,53 @@ header{
     text-align: center;
 }
 
-.gallery-date{
-    color: #FFFFFF;
+.gallery-date {
+    color: #ffffff;
 }
 
-
-#introductionDiv{
+#introductionDiv {
     margin-top: 10px;
     max-width: 300px;
     padding: 10px;
-    color: #FFFFFF;
+    color: #ffffff;
     /*border: 1px solid black;*/
 }
 
 div.home-section {
-    border-bottom: 1px solid rgba(100,100,100, 0.5);
+    border-bottom: 1px solid rgba(100, 100, 100, 0.5);
     width: 700px;
     padding: 10px;
     margin: 5px;
 }
 
-.right-end, .date {
+.right-end,
+.date {
     text-align: right;
     padding: 0;
 }
 
-ul .text-center{
+ul .text-center {
     align-self: center;
     align-items: center;
     margin-left: auto;
     margin-right: auto;
 }
 
-
 .home-section h2 {
     text-align: center;
     font-size: 24px;
-    border-bottom: 1.5px solid rgba(100,100,100, 0.5);
+    border-bottom: 1.5px solid rgba(100, 100, 100, 0.5);
 }
-
 
 p.gallery-text {
     position: relative;
-    color: #FFFFFF;
+    color: #ffffff;
     font-size: 16px;
+}
+
+.gallery-ending{
+    color: #FFFFFF;
+    text-align: center;
 }
 
 img.image-normal {
@@ -114,21 +115,22 @@ img.image-large-horizontal {
 }
 
 footer {
-  font-size: 12px;
-  padding: 20px 0;
-  color: #FFFFFF;
+    font-size: 12px;
+    padding: 20px 0;
+    color: #ffffff;
 }
 
 footer .col-sm-8 {
-  display: flex;
-  justify-content: flex-end;
+    display: flex;
+    justify-content: flex-end;
 }
 
-footer ul, header ul {
-  list-style: none;
+footer ul,
+header ul {
+    list-style: none;
 }
 
-footer li img {
-  width: 32px;
-  height: 32px;
+footer li img, img.sns-icon {
+    width: 32px;
+    height: 32px;
 }

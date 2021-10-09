@@ -17,6 +17,6 @@ function navClick(toShow) {
     // if contacts Div is selected, change background image
     if (toShow == "contactsSect") {
         document.body.style.backgroundImage =
-            'linear-gradient(to right, rgba(0, 0, 0, 0.6) 0 100%), url("/images/home-page-1.jpg")';
+            "linear-gradient(to right, rgba(0, 0, 0, 0.2) 0 100%), url(\"/images/background/home-page-1.jpg\")";
     }
 }
