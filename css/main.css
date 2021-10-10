@@ -90,16 +90,16 @@ header h2 {
 }
 
 .center {
-    margin: auto;
-    width: 80%;
+	margin: auto;
+	width: 80%;
 }
 
 .card-columns {
-    display: inline-block;
+	display: inline-block;
 }
 
 .card {
-    max-width: 400px;
+	max-width: 400px;
 }
 
 .right-end,
@@ -155,8 +155,13 @@ p.date {
 	opacity: 95%;
 }
 
-.resumeDiv {
+.btn-group-vertical button {
+	background-color: rgba(255, 255, 255, 0.9); /* White 0.9 transparency */
+}
 
+.btn-group-vertical button:hover {
+	background-color: #bf3f3f;
+	color: #ffffff;
 }
 
 .resume-section {
@@ -170,7 +175,6 @@ p.date {
 
 .resume-item {
 	min-width: 100px;
-	/*border-bottom: 1px solid rgba(100,100,100, 0.5);*/
 }
 
 .resume-item-title {
@@ -184,7 +188,6 @@ p.date {
 .resume-item-description {
 	font-size: 16px;
 }
-
 
 div.logo-box {
 	margin-left: 10px;
