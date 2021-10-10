@@ -61,7 +61,7 @@ header h2 {
 	color: #ffffff;
 }
 
-.resumeSect h3 {
+.resumeDiv h3 {
 	text-align: center;
 	font-size: 24px;
 	color: #898989;
@@ -76,22 +76,9 @@ header h2 {
 }
 
 .home-section {
-	width: 720px;
+	max-width: 720px;
 	padding: 10px;
 	margin: 5px;
-	/* For test */
-	display: none;
-}
-
-.resume-section {
-	/*border-bottom: 1px solid rgba(100,100,100, 0.5);*/
-	padding: 10px;
-	align-items: center;
-}
-
-.resumeSect {
-	/* For test */
-	display: none;
 }
 
 .resume-item {
@@ -102,11 +89,17 @@ header h2 {
 	align-items: center;
 }
 
-img {
-	position: relative;
-	object-fit: scale-down;
-	max-width: 100px;
-	height: 160px;
+.center {
+    margin: auto;
+    width: 80%;
+}
+
+.card-columns {
+    display: inline-block;
+}
+
+.card {
+    max-width: 400px;
 }
 
 .right-end,
@@ -150,11 +143,6 @@ p.gpa {
 	font-size: 14px;
 	font-style: italic;
 }
-/*
-div.school-detail {
-	margin: 0;
-	padding: 0;
-}*/
 
 div,
 p.date {
@@ -167,10 +155,17 @@ p.date {
 	opacity: 95%;
 }
 
+.resumeDiv {
+
+}
+
 .resume-section {
 	background-color: #ffffff;
 	margin-bottom: 5px;
 	opacity: 95%;
+	display: none;
+	padding: 10px;
+	align-items: center;
 }
 
 .resume-item {
@@ -190,23 +185,6 @@ p.date {
 	font-size: 16px;
 }
 
-.contactsSect h2 {
-	font-size: 40px;
-}
-
-.contactsSect p {
-	font-size: 20px;
-	text-align: center;
-}
-
-.contactsSect {
-	color: #ffffff;
-}
-
-.contacts-item {
-	margin: 20px;
-	padding: 20px;
-}
 
 div.logo-box {
 	margin-left: 10px;

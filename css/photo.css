@@ -4,7 +4,7 @@
 
 body {
     font-family: sans-serif;
-    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.6) 0 100%),
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.8) 0 100%),
         url("/images/background/home-page-1.jpg");
     background-position: center;
     background-repeat: no-repeat;
@@ -52,29 +52,10 @@ header {
     text-align: center;
 }
 
-.gallery-date {
-    color: #ffffff;
-}
-
-#introductionDiv {
-    margin-top: 10px;
-    max-width: 300px;
-    padding: 10px;
-    color: #ffffff;
-    /*border: 1px solid black;*/
-}
-
-div.home-section {
-    border-bottom: 1px solid rgba(100, 100, 100, 0.5);
-    width: 700px;
-    padding: 10px;
-    margin: 5px;
-}
-
-.right-end,
-.date {
-    text-align: right;
-    padding: 0;
+.center {
+    margin: auto;
+    width: 80%;
+    align-self: center;
 }
 
 ul .text-center {
@@ -84,34 +65,15 @@ ul .text-center {
     margin-right: auto;
 }
 
-.home-section h2 {
-    text-align: center;
-    font-size: 24px;
-    border-bottom: 1.5px solid rgba(100, 100, 100, 0.5);
-}
-
-p.gallery-text {
-    position: relative;
-    color: #ffffff;
-    font-size: 16px;
-}
-
 .gallery-ending{
     color: #FFFFFF;
     text-align: center;
 }
 
-img.image-normal {
-    position: relative;
-    object-fit: contain;
-    width: 300px;
-    height: auto;
-    /*max-height: 400px;*/
-}
-
-img.image-large-horizontal {
-    width: 825px;
-    object-fit: contain;
+.card-columns {
+    display: inline-block;
+    /*max-width: 400px;*/
+    width: auto;
 }
 
 footer {

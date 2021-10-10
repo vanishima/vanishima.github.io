@@ -1,0 +1,393 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" />
+		<title>Shushu Chen's homepage</title>
+		<meta name="description" content="Shushu's website and information" />
+    	<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" type="text/css" href="./css/desk.css" />
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+			crossorigin="anonymous"
+		/>
+		<script src="./scripts/main.js"></script>
+	</head>
+
+	<body id="homepage container">
+		<header>
+			<section class="jumbotron">
+				<h1>Shushu Chen</h1>
+				<ul class="nav justify-content-center">
+					<li class="nav-item">
+						<a
+							id="btnHome"
+							class="nav-link btn col-sm-2"
+							href="index.html"
+							>Home</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							id="btnResume"
+							class="nav-link active btn col-sm"
+							onclick="navClick('resumeSect')"
+							>Resume/CV</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							id="btnDesk"
+							class="nav-link btn col-sm"
+							href="./desk.html"
+							>On My Desk</a
+						>
+					</li>
+					<li class="nav-item">
+						<a class="nav-link btn col-sm" href="./photo.html"
+							>Photography</a
+						>
+					</li>
+					<li class="nav-item">
+						<a
+							id="btnContacts"
+							class="nav-link active btn col-sm"
+							onclick="navClick('contactsSect')"
+							>Contacts</a
+						>
+					</li>
+				</ul>
+			</section>
+		</header>
+
+		<br />
+
+		<main class="jumbotron">
+			<div class="row">
+				<div class="col-lg-1"></div>
+				<div class="col-lg-2">
+					<div id="introductionDiv" class="introduction">
+						<section class="row">
+							<h2>
+								What's On My Desk
+							</h2>
+							<hr />
+							<p class="italic">
+								"If it can't fail, it doesn't count."
+							</p>
+						</section>
+
+						<br />
+						<br />
+						<br />
+
+						<footer>
+							<div class="row">
+								<p class="credit">&copy; 2021 Shushu Chen</p>
+							</div>
+							<div class="row">
+								<figure class="col-sm-2">
+									<a
+										href="https://twitter.com/shushu_van"
+										target="_blank"
+										><img
+											class="sns-icon"
+											src="./images/sns/sns_twitter.png"
+											alt="twitter-icon"
+									/></a>
+								</figure>
+								<figure class="col-sm-2">
+									<a
+										href="https://www.linkedin.com/in/shushu-chen/"
+										target="_blank"
+										><img
+											class="sns-icon"
+											src="./images/sns/sns_linkedin.png"
+											alt="linkedin-icon"
+									/></a>
+								</figure>
+								<figure class="col-sm-2">
+									<a
+										href="https://www.instagram.com/shushu_shoot/"
+										target="_blank"
+										><img
+											class="sns-icon"
+											src="./images/sns/sns_instagram.png"
+											alt="instagram-icon"
+									/></a>
+								</figure>
+								<figure class="col-sm-2">
+									<a
+										href="https://shushu-chen.format.com/#1"
+										target="_blank"
+										><img
+											class="sns-icon"
+											src="./images/sns/sns_www.png"
+											alt="www-icon"
+									/></a>
+								</figure>
+							</div>
+						</footer>
+					</div>
+				</div>
+
+				<div class="col-lg-8 center container">
+					<div class="row" data-masonry='{"percentPosition": true }'>
+
+						<div class="col-lg-4 mb-3">
+							<div class="card">
+								<div class="row no-gutters">
+								    <div class="col-md-3">
+								      <img src="./images/desk/desk_myfriend.jpeg" class="card-img" alt="cover of Dear Friend, from My Life I Write to You in Your Life">
+								    </div>
+								    <div class="col-md-9">
+								      <div class="card-body">
+								        <h5 class="card-title">Dear Friend, from My Life I Write
+													to You in Your Life</h5>
+								        <p class="card-text">Yiyun Li</p>
+								      </div>
+								    </div>
+								</div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 mb-3">
+							<div class="card">
+								<div class="row no-gutters">
+								    <div class="col-md-4">
+								      <img 
+								      	class="card-img"
+								      	src="./images/desk/desk_originals.jpeg"
+				                        alt="Card image cap">
+								    </div>
+								    <div class="col-md-8">
+								      <div class="card-body">
+								        <h5 class="card-title">Originals (2016)</h5>
+								        <p class="card-text">Adam Grant</p>
+								      </div>
+								    </div>
+								  </div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 mb-3">
+							<div class="card">
+								<div class="row no-gutters">
+								    <div class="col-md-4">
+								      <img 
+								      	class="card-img"
+								      	src="./images/desk/desk_great_illusion.jpeg"
+				                        alt="Card image cap">
+								    </div>
+								    <div class="col-md-8">
+								      <div class="card-body">
+								        <h5 class="card-title">The Great Delusion: Liberal Dreams and International Realities</h5>
+								        <p class="card-text">John Mearsheimer</p>
+								      </div>
+								    </div>
+								  </div>
+							</div>
+						</div>
+
+						<div class="col-lg-4 mb-3">
+							<div class="card text-card">
+								<blockquote class="blockquote mb-0 card-body">
+							      <p>A glimpse into the depth of other people’s misfortunes makes us cling to the hope that suffering is measurable. There are more sorrowful sorrows, more despondent despondencies. When we recognize another’s suffering, we cannot avoid confronting our own, from which we escape to the thought of measurability. Well, at least, we emphasize. Our capacity to console extends only to what we can do to console ourselves.</p>
+							      <footer class="blockquote-footer">
+							        <small class="text-muted">
+							          Yiyun Li in <cite title="Source Title">Dear Friend, from My Life I Write to You in Your Life</cite>
+							        </small>
+							      </footer>
+							    </blockquote>
+							</div>
+						</div>
+
+						<div class="col-lg-4 mb-3">
+							<div class="card text-card">
+								<blockquote class="blockquote mb-0 card-body">
+							      <p>「人生に失敗はあったって、失敗した人生なんてないと思います」</p>
+							      <footer class="blockquote-footer">
+							        <small class="text-muted">
+							          大豆田とわ子 in <cite title="Source Title">大豆田とわ子と三人の元夫</cite>
+							        </small>
+							      </footer>
+							    </blockquote>
+							</div>
+						</div>
+
+						
+
+						<div class="col-lg-4 mb-3">
+							<div class="card text-card">
+								<blockquote class="blockquote mb-0 card-body">
+							      <p>We find surface ways of appearing original—donning a bow tie, wearing bright red shoes—without taking the risk of actually being original. When it comes to the powerful ideas in our heads and the core values in our hearts, we censor ourselves.</p>
+							      <footer class="blockquote-footer">
+							        <small class="text-muted">
+							          Adam Grant in <cite title="Source Title">Originals</cite>
+							        </small>
+							      </footer>
+							    </blockquote>
+							</div>
+						</div>
+
+						<div class="col-lg-4 mb-3">
+							<div class="card">
+								<img
+		                            class="card-img-top center"
+		                            src="./images/desk/desk_oomameda_1.jpeg"
+									alt="cover of My Dear Exes | Omameda Towako to Sannin no Motootto"
+		                        />
+		                        <div class="card-body">
+		                            <p class="card-text">My Dear Exes | Omameda Towako to Sannin no Motootto (Fuji TV-KTV / 2021)</p>
+		                        </div>
+							</div>
+						</div>
+
+						
+
+						<div class="col-lg-4 mb-3">
+							<div class="card text-card">
+								<blockquote class="blockquote mb-0 card-body">
+							      <p>The structure of the international system is anarchic, not hierarchic, which means that liberalism applied to international politics cannot work.</p>
+							      <footer class="blockquote-footer">
+							        <small class="text-muted">
+							          John Mearsheimer in <cite title="Source Title">The Great Delusion: Liberal Dreams and International Realities</cite>
+							        </small>
+							      </footer>
+							    </blockquote>
+							</div>
+						</div>
+
+						<div class="col-lg-4 mb-3">
+							<div class="card text-card">
+								<blockquote class="blockquote mb-0 card-body">
+							      <p>「人の孤独を埋めるのは、愛されることじゃないよ。愛することだよ。」</p>
+							      <footer class="blockquote-footer">
+							        <small class="text-muted">
+							          中村慎森 in <cite title="Source Title">大豆田とわ子と三人の元夫</cite>
+							        </small>
+							      </footer>
+							    </blockquote>
+							</div>
+						</div>
+
+						<div class="col-lg-4 mb-3">
+							<div class="card text-card">
+								<blockquote class="blockquote mb-0 card-body">
+							      <p>「只有在懂得的人跟前，那些艰辛和委屈才具有意义。」</p>
+							      <footer class="blockquote-footer">
+							        <small class="text-muted">
+							          寿头 in <cite title="Source Title">后妈劝退攻略</cite>
+							        </small>
+							      </footer>
+							    </blockquote>
+							</div>
+						</div>
+
+						<div class="col-lg-4 mb-3">
+							<div class="card"></div>
+						</div>
+
+
+						<div class="card col-lg-3 mb-3">
+						  <div class="row no-gutters">
+						    <div class="col-md-4">
+						      <img 
+						      	class="card-img"
+						      	src="./images/desk/desk_originals.jpeg"
+		                        alt="Card image cap">
+						    </div>
+						    <div class="col-md-8">
+						      <div class="card-body">
+						        <h5 class="card-title">Originals (2016)</h5>
+						        <p class="card-text">Adam Grant</p>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+
+		            	<div class="card col-lg-3 p-2 mb-3">
+						    <blockquote class="blockquote mb-0 card-body">
+						      <p>We find surface ways of appearing original—donning a bow tie, wearing bright red shoes—without taking the risk of actually being original. When it comes to the powerful ideas in our heads and the core values in our hearts, we censor ourselves.</p>
+						      <footer class="blockquote-footer">
+						        <small class="text-muted">
+						          Adam Grant in <cite title="Source Title">Originals</cite>
+						        </small>
+						      </footer>
+						    </blockquote>
+						</div>
+
+						<div class="card col-lg-3 mb-3">
+	                        <img
+	                            class="card-img-top center"
+	                            src="./images/desk/desk_oomameda_1.jpeg"
+								alt="cover of My Dear Exes | Omameda Towako to Sannin no Motootto"
+	                        />
+	                        <div class="card-body">
+	                            <p class="card-text">My Dear Exes | Omameda Towako to Sannin no Motootto (Fuji TV-KTV / 2021)</p>
+	                        </div>
+                    	</div>
+
+                    	<div class="card col-lg-4 mb-3">
+						  <div class="row no-gutters">
+						    <div class="col-md-4">
+						      <img 
+						      	class="card-img"
+						      	src="./images/desk/desk_great_illusion.jpeg"
+		                        alt="Card image cap">
+						    </div>
+						    <div class="col-md-8">
+						      <div class="card-body">
+						        <h5 class="card-title">The Great Delusion: Liberal Dreams and International Realities (2018)</h5>
+						        <p class="card-text">John Mearsheimer</p>
+						      </div>
+						    </div>
+						  </div>
+						</div>
+
+		            	<div class="card col-lg-4 p-2 mb-3">
+						    <blockquote class="blockquote mb-0 card-body">
+						      <p>The structure of the international system is anarchic, not hierarchic, which means that liberalism applied to international politics cannot work.</p>
+						      <footer class="blockquote-footer">
+						        <small class="text-muted">
+						          John Mearsheimer in <cite title="Source Title">The Great Delusion: Liberal Dreams and International Realities</cite>
+						        </small>
+						      </footer>
+						    </blockquote>
+						</div>
+
+		            	<div class="card col-lg-4 p-2 mb-3">
+						    <blockquote class="blockquote mb-0 card-body">
+						      <p>「人の孤独を埋めるのは、愛されることじゃないよ。愛することだよ。」</p>
+						      <footer class="blockquote-footer">
+						        <small class="text-muted">
+						          中村慎森 in <cite title="Source Title">大豆田とわ子と三人の元夫</cite>
+						        </small>
+						      </footer>
+						    </blockquote>
+						</div>
+
+						<div class="card col-lg-4 p-2 mb-3">
+						    <blockquote class="blockquote mb-0 card-body">
+						      <p>「只有在懂得的人跟前，那些艰辛和委屈才具有意义。」</p>
+						      <footer class="blockquote-footer">
+						        <small class="text-muted">
+						          寿头 in <cite title="Source Title">后妈劝退攻略</cite>
+						        </small>
+						      </footer>
+						    </blockquote>
+						</div>
+
+					</div>
+
+				</div>
+
+			</div>
+			<br />
+			<br />
+			<br />
+		</main>
+
+	</body>
+</html>

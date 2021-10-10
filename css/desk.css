@@ -1,0 +1,115 @@
+* {
+	/*overflow-anchor: none;*/
+}
+
+body {
+	font-family: sans-serif;
+	background-image: url("/images/gallery/gallery_uyuni.jpg");
+	background-position: center;
+	background-repeat: no-repeat;
+	background-attachment: fixed;
+	background-size: cover;
+}
+
+div.navigation-bar {
+	align-self: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+nav {
+	align-self: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+	border: 1px solid lavendar;
+}
+
+li.nav-item:hover {
+	background-color: #bf3f3f;
+	opacity: 70%;
+	text-align: center;
+	color: #ffffff;
+}
+
+a.btn:hover {
+	color: #ffffff;
+}
+
+a.btn {
+	color: #a08787;
+}
+
+header {
+	font-size: 12px;
+	color: #ffffff;
+	padding: 10px;
+	align-items: center;
+	text-align: center;
+}
+
+#introductionDiv {
+	margin-top: 10px;
+	margin-left: 10px;
+	max-width: 300px;
+	padding: 10px;
+	color: #ffffff;
+}
+
+.card-title {
+	font-size: 16px;
+}
+
+.center {
+	margin: auto;
+	width: 80%;
+}
+
+.card p {
+	font-size: 16px;
+}
+
+.text-card {
+	padding: 5px;
+}
+
+img.card-img {
+	position: relative;
+	object-fit: cover;
+}
+
+ul .text-center {
+	align-self: center;
+	align-items: center;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+img.sns-icon {
+	width: 30px;
+}
+
+p.credit {
+	color: #000000;
+	font-size: 12px;
+}
+
+footer {
+	font-size: 12px;
+	padding: 20px 0;
+}
+
+footer .col-sm-8 {
+	display: flex;
+	justify-content: flex-end;
+}
+
+footer ul {
+	list-style: none;
+}
+
+footer li img {
+	width: 32px;
+	height: 32px;
+}
