@@ -1,10 +1,10 @@
 # Homepage of Shushu Chen
 This is the homepage for Shushu Chen based on JavaScript, CSS, HTML, and Bootstrap.  
-Author: Shushu Chen  
-Objective: Create a personal website that shows the life and work of Shushu Chen
+**Author**: [Shushu Chen](https://vanishima.github.io/resume.html)  
+**Objective**: Create a personal website that shows the life and work of myself
 
 ## Link to class
-Class: CS 5610 Web Development Northeastern University Bay Area [**Link**](https://johnguerra.co/classes/webDevelopment_fall_2021/)  
+Class: [CS 5610 Web Development Northeastern University Bay Area](https://johnguerra.co/classes/webDevelopment_fall_2021/)  
 Instructor: John Alexis Guerra Gómez
 
 ## Screenshot
@@ -24,3 +24,4 @@ Instructor: John Alexis Guerra Gómez
 * Run local web server by `reload -b` or visit the website 
 
 ## Demo
+https://youtu.be/tre-B0ubELE
