@@ -8,7 +8,7 @@ Class: CS 5610 Web Development Northeastern University Bay Area [**Link**](https
 Instructor: John Alexis Guerra Gómez
 
 ## Screenshot
-[![Shushu Chen's homepage demo](https://github.com/vanishima/vanishima.github.io/blob/main/demo/output_720.gif?raw=true)](https://vanishima.github.io/index.html)
+[![Shushu Chen's homepage demo](https://github.com/vanishima/vanishima.github.io/blob/main/demo/output_720.gif](https://vanishima.github.io/index.html)
 
 ## Tech requirements
 * HTML5
