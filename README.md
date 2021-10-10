@@ -1,6 +1,6 @@
 # Homepage of Shushu Chen
 This is the homepage for Shushu Chen based on JavaScript, CSS, HTML, and Bootstrap.  
-**Author**: [Shushu Chen](https://vanishima.github.io/resume.html)  
+**Author**: [Shushu Chen](https://vanishima.github.io/index.html)  
 **Objective**: Create a personal website that shows the life and work of myself
 
 ## Link to class
