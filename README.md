@@ -11,8 +11,7 @@ Instructor: John Alexis Guerra Gómez
 
 ## Screenshot
 
-Class: [CS 5610 Web Development Northeastern University Bay Area](https://johnguerra.co/classes/webDevelopment_fall_2021/)  
-Instructor: John Alexis Guerra Gómez
+[![Shushu Chen's homepage demo](https://github.com/vanishima/vanishima.github.io/blob/main/demo/output_720.gif?raw=true)](https://vanishima.github.io/index.html)
 
 ## Tech requirements
 
