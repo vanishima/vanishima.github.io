@@ -1,230 +1,230 @@
 * {
-	overflow-anchor: none;
+  overflow-anchor: none;
 }
 
 body {
-	font-family: sans-serif;
-	background-image: url("/images/background/home-page-1.jpg");
-	background-position: center;
-	background-repeat: no-repeat;
-	background-attachment: fixed;
-	background-size: cover;
+  font-family: sans-serif;
+  background-image: url("/images/background/home-page-1.jpg");
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
 }
 
 div.navigation-bar {
-	align-self: center;
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
+  align-self: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 nav {
-	align-self: center;
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
-	border: 1px solid lavendar;
+  align-self: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+  border: 1px solid lavendar;
 }
 
 li.nav-item:hover {
-	background-color: #bf3f3f;
-	opacity: 70%;
-	text-align: center;
-	color: #ffffff;
+  background-color: #bf3f3f;
+  opacity: 70%;
+  text-align: center;
+  color: #ffffff;
 }
 
 a.btn:hover {
-	color: #ffffff;
+  color: #ffffff;
 }
 
 a.btn {
-	color: #a08787;
+  color: #a08787;
 }
 
 figure.desk-item:hover {
-	background-color: #eee7e7;
+  background-color: #eee7e7;
 }
 
 header {
-	font-size: 12px;
-	color: #ffffff;
-	/*text-shadow: 0.25px 0.25px 0.25px #000000;*/
-	padding: 10px;
-	align-items: center;
-	text-align: center;
+  font-size: 12px;
+  color: #ffffff;
+  /*text-shadow: 0.25px 0.25px 0.25px #000000;*/
+  padding: 10px;
+  align-items: center;
+  text-align: center;
 }
 
 header h2 {
-	font-size: 60px;
-	font-weight: 700;
-	margin: 0;
-	color: #ffffff;
+  font-size: 60px;
+  font-weight: 700;
+  margin: 0;
+  color: #ffffff;
 }
 
 .resumeDiv h3 {
-	text-align: center;
-	font-size: 24px;
-	color: #898989;
-	opacity: 0.9;
+  text-align: center;
+  font-size: 24px;
+  color: #898989;
+  opacity: 0.9;
 }
 
 #introductionDiv {
-	margin-top: 10px;
-	max-width: 300px;
-	padding: 10px;
-	color: #ffffff;
+  margin-top: 10px;
+  max-width: 300px;
+  padding: 10px;
+  color: #ffffff;
 }
 
 .home-section {
-	max-width: 720px;
-	padding: 10px;
-	margin: 5px;
+  max-width: 720px;
+  padding: 10px;
+  margin: 5px;
 }
 
 .resume-item {
-	padding: 0 15px;
+  padding: 0 15px;
 }
 
 .desk-item {
-	align-items: center;
+  align-items: center;
 }
 
 .center {
-	margin: auto;
-	width: 80%;
+  margin: auto;
+  width: 80%;
 }
 
 .card-columns {
-	display: inline-block;
+  display: inline-block;
 }
 
 .card {
-	max-width: 400px;
+  max-width: 400px;
 }
 
 .right-end,
 .date {
-	text-align: right;
-	padding: 0;
+  text-align: right;
+  padding: 0;
 }
 
 ul .text-center {
-	align-self: center;
-	align-items: center;
-	margin-left: auto;
-	margin-right: auto;
+  align-self: center;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 .home-section h2 {
-	margin: 5px;
-	text-align: center;
-	font-size: 24px;
-	border-bottom: 1.5px solid rgba(100, 100, 100, 0.5);
+  margin: 5px;
+  text-align: center;
+  font-size: 24px;
+  border-bottom: 1.5px solid rgba(100, 100, 100, 0.5);
 }
 
 span.italic {
-	font-style: italic;
-	font-size: 12px;
+  font-style: italic;
+  font-size: 12px;
 }
 
 .italic {
-	font-style: italic;
+  font-style: italic;
 }
 
 span.desk-author {
-	font-size: 13px;
+  font-size: 13px;
 }
 
 p.desk-title {
-	font-size: 14px;
+  font-size: 14px;
 }
 
 p.gpa {
-	font-size: 14px;
-	font-style: italic;
+  font-size: 14px;
+  font-style: italic;
 }
 
 div,
 p.date {
-	/*border: 1px solid black;*/
-	margin: 0;
+  /*border: 1px solid black;*/
+  margin: 0;
 }
 
 .deskSect {
-	background-color: #ffffff;
-	opacity: 95%;
+  background-color: #ffffff;
+  opacity: 95%;
 }
 
 .btn-group-vertical button {
-	background-color: rgba(255, 255, 255, 0.9); /* White 0.9 transparency */
+  background-color: rgba(255, 255, 255, 0.9); /* White 0.9 transparency */
 }
 
 .btn-group-vertical button:hover {
-	background-color: #bf3f3f;
-	color: #ffffff;
+  background-color: #bf3f3f;
+  color: #ffffff;
 }
 
 .resume-section {
-	background-color: #ffffff;
-	margin-bottom: 5px;
-	opacity: 95%;
-	display: none;
-	padding: 10px;
-	align-items: center;
+  background-color: #ffffff;
+  margin-bottom: 5px;
+  opacity: 95%;
+  display: none;
+  padding: 10px;
+  align-items: center;
 }
 
 .resume-item {
-	min-width: 100px;
+  min-width: 100px;
 }
 
 .resume-item-title {
-	font-size: 18px;
+  font-size: 18px;
 }
 
 .resume-item-subtitle {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 .resume-item-description {
-	font-size: 16px;
+  font-size: 16px;
 }
 
 div.logo-box {
-	margin-left: 10px;
+  margin-left: 10px;
 }
 
 img.logo {
-	object-fit: contain;
-	width: 90%;
-	height: 90%;
-	margin-right: 0;
-	padding-right: 0;
+  object-fit: contain;
+  width: 90%;
+  height: 90%;
+  margin-right: 0;
+  padding-right: 0;
 }
 
 img.sns-icon {
-	width: 30px;
+  width: 30px;
 }
 
 p.credit {
-	color: #000000;
-	font-size: 12px;
+  color: #000000;
+  font-size: 12px;
 }
 
 footer {
-	font-size: 12px;
-	padding: 20px 0;
+  font-size: 12px;
+  padding: 20px 0;
 }
 
 footer .col-sm-8 {
-	display: flex;
-	justify-content: flex-end;
+  display: flex;
+  justify-content: flex-end;
 }
 
 footer ul {
-	list-style: none;
+  list-style: none;
 }
 
 footer li img {
-	width: 32px;
-	height: 32px;
+  width: 32px;
+  height: 32px;
 }

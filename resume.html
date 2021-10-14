@@ -1,603 +1,605 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8" />
-		<title>Shushu Chen's homepage</title>
-		<link rel="stylesheet" type="text/css" href="./css/main.css" />
-		<link
-			href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
-			rel="stylesheet"
-			integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
-			crossorigin="anonymous"
-		/>
-		<script src="./scripts/main.js"></script>
-	</head>
+  <head>
+    <meta charset="utf-8" />
+    <title>Shushu Chen's homepage</title>
+    <link rel="stylesheet" type="text/css" href="./css/main.css" />
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU"
+      crossorigin="anonymous"
+    />
+    <script src="./scripts/main.js"></script>
+  </head>
 
-	<body id="homepage">
-		<header>
-			<section class="jumbotron in-page-navbar">
-				<h1>Shushu Chen</h1>
-				<ul class="nav justify-content-center">
-					<li class="nav-item">
-						<a id="btnHome" class="nav-link btn col-sm-2" href="./index.html"
-							>Home</a
-						>
-					</li>
-					<li class="nav-item">
-						<a
-							id="btnResume"
-							class="nav-link active btn col-sm"
-							href="./resume.html"
-							>Resume/CV</a
-						>
-					</li>
-					<li class="nav-item">
-						<a id="btnDesk" class="nav-link btn col-sm" href="./desk.html"
-							>On My Desk</a
-						>
-					</li>
-					<li class="nav-item">
-						<a class="nav-link btn col-sm" href="./photo.html">Photography</a>
-					</li>
-					<li class="nav-item">
-						<a
-							id="btnContacts"
-							class="nav-link active btn col-sm"
-							onclick="navClick('contactsDiv')"
-							>Contacts</a
-						>
-					</li>
-				</ul>
-			</section>
-		</header>
+  <body id="homepage">
+    <header>
+      <section class="jumbotron in-page-navbar">
+        <h1>Shushu Chen</h1>
+        <ul class="nav justify-content-center">
+          <li class="nav-item">
+            <a id="btnHome" class="nav-link btn col-sm-2" href="./index.html"
+              >Home</a
+            >
+          </li>
+          <li class="nav-item">
+            <a
+              id="btnResume"
+              class="nav-link active btn col-sm"
+              href="./resume.html"
+              >Resume/CV</a
+            >
+          </li>
+          <li class="nav-item">
+            <a id="btnDesk" class="nav-link btn col-sm" href="./desk.html"
+              >On My Desk</a
+            >
+          </li>
+          <li class="nav-item">
+            <a class="nav-link btn col-sm" href="./photo.html">Photography</a>
+          </li>
+          <li class="nav-item">
+            <a
+              id="btnContacts"
+              class="nav-link active btn col-sm"
+              onclick="navClick('contactsDiv')"
+              >Contacts</a
+            >
+          </li>
+        </ul>
+      </section>
+    </header>
 
-		<br />
+    <br />
 
-		<main id="main" class="container">
-			<div class="row">
-				<div class="panel col-lg-3">
-					<div id="introductionDiv" class="introduction">
-						<section class="row">
-							<h2 id="panel-title">Seeking Software Engineer Intern</h2>
-							<hr />
-							<p id="panel-subtitle">
-								Click below to show and hide resume sections
-							</p>
-						</section>
+    <main id="main" class="container">
+      <div class="row">
+        <div class="panel col-lg-3">
+          <!-- fcwesavav 
+						fwcafcwsevfseva-->
+          <div id="introductionDiv" class="introduction">
+            <section class="row">
+              <h2 id="panel-title">Seeking Software Engineer Intern</h2>
+              <hr />
+              <p id="panel-subtitle">
+                Click below to show and hide resume sections
+              </p>
+            </section>
 
-						<div
-							class="btn-toolbar mb-3"
-							role="toolbar"
-							aria-label="Toolbar with button groups"
-						>
-							<div
-								class="btn-group-vertical me-2"
-								role="group"
-								aria-label="First group"
-							>
-								<button
-									id="btncheckEdu"
-									type="button"
-									class="btn mb-2"
-									onclick="resumeCheck('btncheckEdu')"
-								>
-									Education
-								</button>
+            <div
+              class="btn-toolbar mb-3"
+              role="toolbar"
+              aria-label="Toolbar with button groups"
+            >
+              <div
+                class="btn-group-vertical me-2"
+                role="group"
+                aria-label="First group"
+              >
+                <button
+                  id="btncheckEdu"
+                  type="button"
+                  class="btn mb-2"
+                  onclick="resumeCheck('btncheckEdu')"
+                >
+                  Education
+                </button>
 
-								<button
-									id="btncheckSki"
-									type="button"
-									class="btn mb-2"
-									onclick="resumeCheck('btncheckSki')"
-								>
-									Skills
-								</button>
+                <button
+                  id="btncheckSki"
+                  type="button"
+                  class="btn mb-2"
+                  onclick="resumeCheck('btncheckSki')"
+                >
+                  Skills
+                </button>
 
-								<button
-									id="btncheckExp"
-									type="button"
-									class="btn mb-2"
-									onclick="resumeCheck('btncheckExp')"
-								>
-									Experience
-								</button>
+                <button
+                  id="btncheckExp"
+                  type="button"
+                  class="btn mb-2"
+                  onclick="resumeCheck('btncheckExp')"
+                >
+                  Experience
+                </button>
 
-								<button
-									id="btncheckPro"
-									type="button"
-									class="btn mb-2"
-									onclick="resumeCheck('btncheckPro')"
-								>
-									Projects
-								</button>
-							</div>
-						</div>
+                <button
+                  id="btncheckPro"
+                  type="button"
+                  class="btn mb-2"
+                  onclick="resumeCheck('btncheckPro')"
+                >
+                  Projects
+                </button>
+              </div>
+            </div>
 
-						<br />
-						<br />
-						<br />
+            <br />
+            <br />
+            <br />
 
-						<footer>
-							<div class="row">
-								<p class="credit">&copy; 2021 Shushu Chen</p>
-							</div>
-							<div class="row">
-								<figure class="col-sm-2">
-									<a href="https://twitter.com/shushu_van" target="_blank"
-										><img
-											class="sns-icon"
-											src="./images/sns/sns_twitter.png"
-											alt="twitter-icon"
-									/></a>
-								</figure>
-								<figure class="col-sm-2">
-									<a
-										href="https://www.linkedin.com/in/shushu-chen/"
-										target="_blank"
-										><img
-											class="sns-icon"
-											src="./images/sns/sns_linkedin.png"
-											alt="linkedin-icon"
-									/></a>
-								</figure>
-								<figure class="col-sm-2">
-									<a
-										href="https://www.instagram.com/shushu_shoot/"
-										target="_blank"
-										><img
-											class="sns-icon"
-											src="./images/sns/sns_instagram.png"
-											alt="instagram-icon"
-									/></a>
-								</figure>
-								<figure class="col-sm-2">
-									<a href="https://shushu-chen.format.com/#1" target="_blank"
-										><img
-											class="sns-icon"
-											src="./images/sns/sns_www.png"
-											alt="www-icon"
-									/></a>
-								</figure>
-							</div>
-						</footer>
-					</div>
-				</div>
+            <footer>
+              <div class="row">
+                <p class="credit">&copy; 2021 Shushu Chen</p>
+              </div>
+              <div class="row">
+                <figure class="col-sm-2">
+                  <a href="https://twitter.com/shushu_van" target="_blank"
+                    ><img
+                      class="sns-icon"
+                      src="./images/sns/sns_twitter.png"
+                      alt="twitter-icon"
+                  /></a>
+                </figure>
+                <figure class="col-sm-2">
+                  <a
+                    href="https://www.linkedin.com/in/shushu-chen/"
+                    target="_blank"
+                    ><img
+                      class="sns-icon"
+                      src="./images/sns/sns_linkedin.png"
+                      alt="linkedin-icon"
+                  /></a>
+                </figure>
+                <figure class="col-sm-2">
+                  <a
+                    href="https://www.instagram.com/shushu_shoot/"
+                    target="_blank"
+                    ><img
+                      class="sns-icon"
+                      src="./images/sns/sns_instagram.png"
+                      alt="instagram-icon"
+                  /></a>
+                </figure>
+                <figure class="col-sm-2">
+                  <a href="https://shushu-chen.format.com/#1" target="_blank"
+                    ><img
+                      class="sns-icon"
+                      src="./images/sns/sns_www.png"
+                      alt="www-icon"
+                  /></a>
+                </figure>
+              </div>
+            </footer>
+          </div>
+        </div>
 
-				<div class="panel col-auto">
-					<div
-						id="resumeDiv"
-						class="resumeDiv home-section justify-content-md-center"
-					>
-						<div id="contactsDiv" class="contactsDiv">
-							<br />
+        <div class="panel col-auto">
+          <div
+            id="resumeDiv"
+            class="resumeDiv home-section justify-content-md-center"
+          >
+            <div id="contactsDiv" class="contactsDiv">
+              <br />
 
-							<div class="card mb-3" style="max-width: 720px">
-								<div class="row no-gutters">
-									<div class="col-md-4">
-										<img
-											src="./images/sns/profile.jpeg"
-											class="card-img"
-											alt="my profile picture"
-										/>
-									</div>
-									<div class="col-md-8">
-										<div class="card-body">
-											<p class="card-text">
-												<strong>Email</strong>:<br />
-												chen.shus@northeastern.edu
-											</p>
-											<p class="card-text">
-												<strong>Location</strong>:<br />San Jose, CA
-											</p>
-											<p class="card-text">
-												<strong>Currently enrolled in</strong
-												>:<br />Northeastern University (Class of 2023)
-											</p>
-										</div>
-									</div>
-								</div>
-							</div>
-						</div>
+              <div class="card mb-3" style="max-width: 720px">
+                <div class="row no-gutters">
+                  <div class="col-md-4">
+                    <img
+                      src="./images/sns/profile.jpeg"
+                      class="card-img"
+                      alt="my profile picture"
+                    />
+                  </div>
+                  <div class="col-md-8">
+                    <div class="card-body">
+                      <p class="card-text">
+                        <strong>Email</strong>:<br />
+                        chen.shus@northeastern.edu
+                      </p>
+                      <p class="card-text">
+                        <strong>Location</strong>:<br />San Jose, CA
+                      </p>
+                      <p class="card-text">
+                        <strong>Currently enrolled in</strong
+                        >:<br />Northeastern University (Class of 2023)
+                      </p>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
 
-						<section id="educationSect" class="education resume-section mb-2">
-							<div class="row justify-content-md-center">
-								<h2 class="section-title col-md-auto">Education</h2>
-							</div>
-							<br />
+            <section id="educationSect" class="education resume-section mb-2">
+              <div class="row justify-content-md-center">
+                <h2 class="section-title col-md-auto">Education</h2>
+              </div>
+              <br />
 
-							<section class="resume-item">
-								<div class="row">
-									<div class="logo-box col-sm-2 align-items-center">
-										<img
-											src="./images/logo/logo_neu.png"
-											class="logo"
-											alt="NEU Logo"
-										/>
-									</div>
-									<div class="align-items-center row col-sm-10 school-info">
-										<br />
-										<div class="school-detail col-sm">
-											<div class="row">
-												<h4 class="resume-item-title col-auto me-auto">
-													Northeastern University
-												</h4>
-												<p class="col-auto date">
-													<strong>Expected May 2023</strong>
-												</p>
-											</div>
-											<div class="row">
-												<p class="resume-item-subtitle col-auto me-auto">
-													Master of Science in Computer Science
-												</p>
-												<p class="col-auto right-end gpa">GPA: 3.8</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</section>
+              <section class="resume-item">
+                <div class="row">
+                  <div class="logo-box col-sm-2 align-items-center">
+                    <img
+                      src="./images/logo/logo_neu.png"
+                      class="logo"
+                      alt="NEU Logo"
+                    />
+                  </div>
+                  <div class="align-items-center row col-sm-10 school-info">
+                    <br />
+                    <div class="school-detail col-sm">
+                      <div class="row">
+                        <h4 class="resume-item-title col-auto me-auto">
+                          Northeastern University
+                        </h4>
+                        <p class="col-auto date">
+                          <strong>Expected May 2023</strong>
+                        </p>
+                      </div>
+                      <div class="row">
+                        <p class="resume-item-subtitle col-auto me-auto">
+                          Master of Science in Computer Science
+                        </p>
+                        <p class="col-auto right-end gpa">GPA: 3.8</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
 
-							<section class="resume-item">
-								<div class="row">
-									<div class="logo-box col-sm-2 align-items-center">
-										<img
-											src="./images/logo/logo_jhu.png"
-											class="logo"
-											alt="NEU Logo"
-										/>
-									</div>
-									<div class="align-items-center row col-sm-10 school-info">
-										<br />
-										<div class="school-detail col-sm">
-											<div class="row">
-												<h4 class="resume-item-title col-auto me-auto">
-													Johns Hopkins University
-												</h4>
-												<p class="col-auto date">
-													<strong>Aug 2020</strong>
-												</p>
-											</div>
-											<div class="row">
-												<p class="resume-item-subtitle col-auto me-auto">
-													Master of Science in Marketing
-												</p>
-												<p class="col-auto gpa">GPA: 3.4</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</section>
+              <section class="resume-item">
+                <div class="row">
+                  <div class="logo-box col-sm-2 align-items-center">
+                    <img
+                      src="./images/logo/logo_jhu.png"
+                      class="logo"
+                      alt="NEU Logo"
+                    />
+                  </div>
+                  <div class="align-items-center row col-sm-10 school-info">
+                    <br />
+                    <div class="school-detail col-sm">
+                      <div class="row">
+                        <h4 class="resume-item-title col-auto me-auto">
+                          Johns Hopkins University
+                        </h4>
+                        <p class="col-auto date">
+                          <strong>Aug 2020</strong>
+                        </p>
+                      </div>
+                      <div class="row">
+                        <p class="resume-item-subtitle col-auto me-auto">
+                          Master of Science in Marketing
+                        </p>
+                        <p class="col-auto gpa">GPA: 3.4</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
 
-							<section class="resume-item">
-								<div class="row">
-									<div class="logo-box col-sm-2 align-items-center">
-										<img
-											src="./images/logo/logo_nyu.png"
-											class="logo"
-											alt="NEU Logo"
-										/>
-									</div>
-									<div class="align-items-center row col-sm-10 school-info">
-										<br />
-										<div class="school-detail col-sm">
-											<div class="row">
-												<h4 class="resume-item-title col-auto me-auto">
-													New York University
-												</h4>
-												<p class="col-auto date">
-													<strong>May 2019</strong>
-												</p>
-											</div>
-											<div class="row">
-												<p class="resume-item-subtitle col-10 me-auto">
-													Bachelor of Arts in Individualized Study: Narratives
-													in Politics, Business, and Photography
-												</p>
-												<p class="col-auto gpa">GPA: 3.7</p>
-											</div>
-										</div>
-									</div>
-								</div>
-							</section>
-						</section>
+              <section class="resume-item">
+                <div class="row">
+                  <div class="logo-box col-sm-2 align-items-center">
+                    <img
+                      src="./images/logo/logo_nyu.png"
+                      class="logo"
+                      alt="NEU Logo"
+                    />
+                  </div>
+                  <div class="align-items-center row col-sm-10 school-info">
+                    <br />
+                    <div class="school-detail col-sm">
+                      <div class="row">
+                        <h4 class="resume-item-title col-auto me-auto">
+                          New York University
+                        </h4>
+                        <p class="col-auto date">
+                          <strong>May 2019</strong>
+                        </p>
+                      </div>
+                      <div class="row">
+                        <p class="resume-item-subtitle col-10 me-auto">
+                          Bachelor of Arts in Individualized Study: Narratives
+                          in Politics, Business, and Photography
+                        </p>
+                        <p class="col-auto gpa">GPA: 3.7</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </section>
+            </section>
 
-						<section id="skillsSect" class="resume-section mb-2">
-							<div class="row justify-content-md-center">
-								<h2 class="section-title col-md-auto">Technical Knowledge</h2>
-							</div>
-							<br />
-							<div class="resume-item">
-								<div class="row">
-									<p class="resume-item-description">
-										<strong>Languages</strong>: Java, Python, JavaScript, HTML,
-										CSS, C, SQL, Lua, PHP, R
-									</p>
-								</div>
-							</div>
-							<div class="resume-item">
-								<div class="row">
-									<p class="resume-item-description">
-										<strong>Tools</strong>: React, Node.js, JSON, MongoDB,
-										Keras, Scrapy, OpenCV, Numpy, Pandas, Selenium, Matlab, CSS,
-										XPath
-									</p>
-								</div>
-							</div>
-							<div class="resume-item">
-								<div class="row">
-									<p class="resume-item-description">
-										<strong>Software & Services</strong>: Linux, Scripting, Git,
-										Docker, Android Studio, Shell, Eclipse, MySQL Workbench,
-										Postman
-									</p>
-								</div>
-							</div>
-						</section>
+            <section id="skillsSect" class="resume-section mb-2">
+              <div class="row justify-content-md-center">
+                <h2 class="section-title col-md-auto">Technical Knowledge</h2>
+              </div>
+              <br />
+              <div class="resume-item">
+                <div class="row">
+                  <p class="resume-item-description">
+                    <strong>Languages</strong>: Java, Python, JavaScript, HTML,
+                    CSS, C, SQL, Lua, PHP, R
+                  </p>
+                </div>
+              </div>
+              <div class="resume-item">
+                <div class="row">
+                  <p class="resume-item-description">
+                    <strong>Tools</strong>: React, Node.js, JSON, MongoDB,
+                    Keras, Scrapy, OpenCV, Numpy, Pandas, Selenium, Matlab, CSS,
+                    XPath
+                  </p>
+                </div>
+              </div>
+              <div class="resume-item">
+                <div class="row">
+                  <p class="resume-item-description">
+                    <strong>Software & Services</strong>: Linux, Scripting, Git,
+                    Docker, Android Studio, Shell, Eclipse, MySQL Workbench,
+                    Postman
+                  </p>
+                </div>
+              </div>
+            </section>
 
-						<section id="experienceSect" class="resume-section mb-2">
-							<div class="row justify-content-md-center">
-								<h2 class="section-title col-md-auto">Experience</h2>
-							</div>
-							<br />
+            <section id="experienceSect" class="resume-section mb-2">
+              <div class="row justify-content-md-center">
+                <h2 class="section-title col-md-auto">Experience</h2>
+              </div>
+              <br />
 
-							<div class="resume-item">
-								<div class="row">
-									<h4 class="col-sm-auto resume-item-title">
-										Maika fan-sub group
-										<span class="italic">(non-profit)</span>
-									</h4>
-									<p class="col-sm right-end location">Remote</p>
-								</div>
+              <div class="resume-item">
+                <div class="row">
+                  <h4 class="col-sm-auto resume-item-title">
+                    Maika fan-sub group
+                    <span class="italic">(non-profit)</span>
+                  </h4>
+                  <p class="col-sm right-end location">Remote</p>
+                </div>
 
-								<div class="row">
-									<p class="col-md-auto resume-item-subtitle">
-										Founder & Developer
-									</p>
-									<p class="col-sm right-end date">
-										<strong>Jun 2018 - Current</strong>
-									</p>
-								</div>
+                <div class="row">
+                  <p class="col-md-auto resume-item-subtitle">
+                    Founder & Developer
+                  </p>
+                  <p class="col-sm right-end date">
+                    <strong>Jun 2018 - Current</strong>
+                  </p>
+                </div>
 
-								<div>
-									<ul>
-										<li class="resume-item-description">
-											Designed a frame-accurate Text Change Detector that
-											improved workflow efficiency by 40%
-										</li>
-										<li class="resume-item-description">
-											Created a Java GUI image, video, and text processor based
-											on MVC framework
-										</li>
-										<li class="resume-item-description">
-											Led team of 20 translators undertaking the production of
-											over 700 fansubbed videos
-										</li>
-									</ul>
-								</div>
-							</div>
+                <div>
+                  <ul>
+                    <li class="resume-item-description">
+                      Designed a frame-accurate Text Change Detector that
+                      improved workflow efficiency by 40%
+                    </li>
+                    <li class="resume-item-description">
+                      Created a Java GUI image, video, and text processor based
+                      on MVC framework
+                    </li>
+                    <li class="resume-item-description">
+                      Led team of 20 translators undertaking the production of
+                      over 700 fansubbed videos
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-							<div class="resume-item">
-								<div class="row">
-									<h4 class="col resume-item-title">
-										Johns Hopkins University
-									</h4>
-									<p class="col right-end location">Baltimore, MD</p>
-								</div>
+              <div class="resume-item">
+                <div class="row">
+                  <h4 class="col resume-item-title">
+                    Johns Hopkins University
+                  </h4>
+                  <p class="col right-end location">Baltimore, MD</p>
+                </div>
 
-								<div class="row">
-									<p class="col-sm-auto resume-item-subtitle">
-										Prototype Technician Intern
-									</p>
-									<p class="col-sm right-end date">
-										<strong>Apr 2020 - Jun 2020</strong>
-									</p>
-								</div>
-								<div>
-									<ul>
-										<li class="resume-item-description">
-											Designed and tested front-end prototype and increased
-											website traffic by 800%
-										</li>
-										<li class="resume-item-description">
-											Analyzed and visualized COVID-19-specific medical resource
-											data by using Python Pandas
-										</li>
-									</ul>
-								</div>
-							</div>
+                <div class="row">
+                  <p class="col-sm-auto resume-item-subtitle">
+                    Prototype Technician Intern
+                  </p>
+                  <p class="col-sm right-end date">
+                    <strong>Apr 2020 - Jun 2020</strong>
+                  </p>
+                </div>
+                <div>
+                  <ul>
+                    <li class="resume-item-description">
+                      Designed and tested front-end prototype and increased
+                      website traffic by 800%
+                    </li>
+                    <li class="resume-item-description">
+                      Analyzed and visualized COVID-19-specific medical resource
+                      data by using Python Pandas
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-							<div class="resume-item">
-								<div class="row">
-									<h4 class="col-sm-auto resume-item-title">
-										Lunch Notes for the Professional Women
-										<span class="italic">(non-profit)</span>
-									</h4>
-									<p class="col-sm right-end location">Baltimore, MD</p>
-								</div>
+              <div class="resume-item">
+                <div class="row">
+                  <h4 class="col-sm-auto resume-item-title">
+                    Lunch Notes for the Professional Women
+                    <span class="italic">(non-profit)</span>
+                  </h4>
+                  <p class="col-sm right-end location">Baltimore, MD</p>
+                </div>
 
-								<div class="row">
-									<p class="col-sm-auto resume-item-subtitle">
-										Marketing Consultant Intern
-									</p>
-									<p class="col-sm right-end date">
-										<strong>Oct 2019 - May 2020</strong>
-									</p>
-								</div>
+                <div class="row">
+                  <p class="col-sm-auto resume-item-subtitle">
+                    Marketing Consultant Intern
+                  </p>
+                  <p class="col-sm right-end date">
+                    <strong>Oct 2019 - May 2020</strong>
+                  </p>
+                </div>
 
-								<div>
-									<ul>
-										<li class="resume-item-description">
-											Designed and conducted marketing research which collected
-											500+ responses
-										</li>
-										<li class="resume-item-description">
-											Worked with a team to foster the commercialization and
-											development of an online service
-										</li>
-									</ul>
-								</div>
-							</div>
+                <div>
+                  <ul>
+                    <li class="resume-item-description">
+                      Designed and conducted marketing research which collected
+                      500+ responses
+                    </li>
+                    <li class="resume-item-description">
+                      Worked with a team to foster the commercialization and
+                      development of an online service
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-							<div class="resume-item">
-								<div class="row">
-									<h4 class="col-sm-auto resume-item-title">
-										Authine Internet Technology
-									</h4>
-									<p class="col-sm right-end location">Shenzhen, China</p>
-								</div>
-								<div class="row">
-									<p class="col-sm-auto resume-item-subtitle">
-										Data Analyst Intern
-									</p>
-									<p class="col-sm right-end date">
-										<strong>Jun 2019 - Aug 2019</strong>
-									</p>
-								</div>
+              <div class="resume-item">
+                <div class="row">
+                  <h4 class="col-sm-auto resume-item-title">
+                    Authine Internet Technology
+                  </h4>
+                  <p class="col-sm right-end location">Shenzhen, China</p>
+                </div>
+                <div class="row">
+                  <p class="col-sm-auto resume-item-subtitle">
+                    Data Analyst Intern
+                  </p>
+                  <p class="col-sm right-end date">
+                    <strong>Jun 2019 - Aug 2019</strong>
+                  </p>
+                </div>
 
-								<div>
-									<ul>
-										<li class="resume-item-description">
-											Produced customer segmentation reports by using R and
-											K-Means Clustering that helped raise the number of
-											conversions among App visitors by 8%
-										</li>
-										<li class="resume-item-description">
-											Generated reports on UI optimization by processing and
-											analyzing website and mobile data
-										</li>
-									</ul>
-								</div>
-							</div>
-						</section>
+                <div>
+                  <ul>
+                    <li class="resume-item-description">
+                      Produced customer segmentation reports by using R and
+                      K-Means Clustering that helped raise the number of
+                      conversions among App visitors by 8%
+                    </li>
+                    <li class="resume-item-description">
+                      Generated reports on UI optimization by processing and
+                      analyzing website and mobile data
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
 
-						<section id="projectsSect" class="resume-section mb-2">
-							<div class="row justify-content-md-center">
-								<h2 class="section-title col-md-auto">Projects</h2>
-							</div>
+            <section id="projectsSect" class="resume-section mb-2">
+              <div class="row justify-content-md-center">
+                <h2 class="section-title col-md-auto">Projects</h2>
+              </div>
 
-							<div class="resume-item">
-								<div class="row">
-									<h4 class="col-sm-auto resume-item-title">
-										Personal Homepage
-									</h4>
-									<p class="col-sm right-end date">
-										<strong>Sep 2021 - Oct 2020</strong>
-									</p>
-								</div>
-								<p class="resume-item-subtitle">
-									A full-stack personal web application
-								</p>
-								<div>
-									<ul>
-										<li class="resume-item-description">
-											Prototyped an action-triggered
-											<strong>front-end UI</strong> by using
-											<strong>Bootstrap, HTML, CSS</strong>, and
-											<strong>JavaScript</strong>
-										</li>
-										<li class="resume-item-description">
-											Established a web server with
-											<strong>Node.js and Express framework</strong>
-										</li>
-									</ul>
-								</div>
-							</div>
+              <div class="resume-item">
+                <div class="row">
+                  <h4 class="col-sm-auto resume-item-title">
+                    Personal Homepage
+                  </h4>
+                  <p class="col-sm right-end date">
+                    <strong>Sep 2021 - Oct 2020</strong>
+                  </p>
+                </div>
+                <p class="resume-item-subtitle">
+                  A full-stack personal web application
+                </p>
+                <div>
+                  <ul>
+                    <li class="resume-item-description">
+                      Prototyped an action-triggered
+                      <strong>front-end UI</strong> by using
+                      <strong>Bootstrap, HTML, CSS</strong>, and
+                      <strong>JavaScript</strong>
+                    </li>
+                    <li class="resume-item-description">
+                      Established a web server with
+                      <strong>Node.js and Express framework</strong>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-							<div class="resume-item">
-								<div class="row">
-									<h4 class="col-sm-auto resume-item-title">
-										BiliVideo Tracker App
-									</h4>
-									<p class="col-sm right-end date">
-										<strong>Jul 2021 - Aug 2020</strong>
-									</p>
-								</div>
-								<p class="resume-item-subtitle">
-									An Android Mobile Application for online video KPI tracking &
-									visualizing
-								</p>
-								<div>
-									<ul>
-										<li class="resume-item-description">
-											Built a user-friendly
-											<strong>Android CRUD App </strong>that supports updating
-											and visualizing
-											<strong>MySQL data</strong>
-										</li>
-										<li class="resume-item-description">
-											Created
-											<strong>REST APIs</strong> in <strong>PHP </strong> for
-											remote
-											<strong>SQL Server</strong>
-											connection and<strong>JSON parsing</strong>
-										</li>
-										<li class="resume-item-description">
-											Initiated and processed
-											<strong>POST requests</strong>through
-											<strong>Apache server</strong>
-										</li>
-									</ul>
-								</div>
-							</div>
+              <div class="resume-item">
+                <div class="row">
+                  <h4 class="col-sm-auto resume-item-title">
+                    BiliVideo Tracker App
+                  </h4>
+                  <p class="col-sm right-end date">
+                    <strong>Jul 2021 - Aug 2020</strong>
+                  </p>
+                </div>
+                <p class="resume-item-subtitle">
+                  An Android Mobile Application for online video KPI tracking &
+                  visualizing
+                </p>
+                <div>
+                  <ul>
+                    <li class="resume-item-description">
+                      Built a user-friendly
+                      <strong>Android CRUD App </strong>that supports updating
+                      and visualizing
+                      <strong>MySQL data</strong>
+                    </li>
+                    <li class="resume-item-description">
+                      Created
+                      <strong>REST APIs</strong> in <strong>PHP </strong> for
+                      remote
+                      <strong>SQL Server</strong>
+                      connection and<strong>JSON parsing</strong>
+                    </li>
+                    <li class="resume-item-description">
+                      Initiated and processed
+                      <strong>POST requests</strong>through
+                      <strong>Apache server</strong>
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-							<div class="resume-item">
-								<div class="row">
-									<h4 class="col-sm-auto resume-item-title">
-										Automatic Media Downloader
-									</h4>
-									<p class="col-sm right-end date">
-										<strong>Mar 2021</strong>
-									</p>
-								</div>
-								<p class="resume-item-subtitle">
-									An automatic web-crawler for JavaScript websites
-								</p>
-								<div>
-									<ul>
-										<li class="resume-item-description">
-											Developed a
-											<strong>Scrapy</strong>-based web crawler to download
-											content from <strong>JavaScript</strong> websites by using
-											<strong>XPath</strong>
-										</li>
-										<li class="resume-item-description">
-											Deployed
-											<strong>MongoDB</strong> database with customized
-											pipelines to maintain data persistence
-										</li>
-									</ul>
-								</div>
-							</div>
+              <div class="resume-item">
+                <div class="row">
+                  <h4 class="col-sm-auto resume-item-title">
+                    Automatic Media Downloader
+                  </h4>
+                  <p class="col-sm right-end date">
+                    <strong>Mar 2021</strong>
+                  </p>
+                </div>
+                <p class="resume-item-subtitle">
+                  An automatic web-crawler for JavaScript websites
+                </p>
+                <div>
+                  <ul>
+                    <li class="resume-item-description">
+                      Developed a
+                      <strong>Scrapy</strong>-based web crawler to download
+                      content from <strong>JavaScript</strong> websites by using
+                      <strong>XPath</strong>
+                    </li>
+                    <li class="resume-item-description">
+                      Deployed
+                      <strong>MongoDB</strong> database with customized
+                      pipelines to maintain data persistence
+                    </li>
+                  </ul>
+                </div>
+              </div>
 
-							<div class="resume-item">
-								<div class="row">
-									<h4 class="col-sm-auto resume-item-title">
-										Image Classifier
-									</h4>
-									<p class="col-sm right-end date">
-										<strong>Jan 2021</strong>
-									</p>
-								</div>
-								<p class="resume-item-subtitle">
-									An image classifier based on deep learning model
-								</p>
-								<div>
-									<ul>
-										<li class="resume-item-description">
-											Utilized <strong>Keras</strong> in training a deep
-											learning model to distinguish between photos of animal
-											species
-										</li>
-									</ul>
-								</div>
-							</div>
-						</section>
-					</div>
-				</div>
-			</div>
+              <div class="resume-item">
+                <div class="row">
+                  <h4 class="col-sm-auto resume-item-title">
+                    Image Classifier
+                  </h4>
+                  <p class="col-sm right-end date">
+                    <strong>Jan 2021</strong>
+                  </p>
+                </div>
+                <p class="resume-item-subtitle">
+                  An image classifier based on deep learning model
+                </p>
+                <div>
+                  <ul>
+                    <li class="resume-item-description">
+                      Utilized <strong>Keras</strong> in training a deep
+                      learning model to distinguish between photos of animal
+                      species
+                    </li>
+                  </ul>
+                </div>
+              </div>
+            </section>
+          </div>
+        </div>
+      </div>
 
-			<br />
-			<br />
-			<br />
-		</main>
-	</body>
+      <br />
+      <br />
+      <br />
+    </main>
+  </body>
 </html>
