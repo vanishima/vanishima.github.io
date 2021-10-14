@@ -22,8 +22,6 @@ Instructor: John Alexis Guerra Gómez
 
 [![Shushu Chen's homepage demo](https://github.com/vanishima/vanishima.github.io/blob/main/demo/gif-demo.gif?raw=true)](https://vanishima.github.io/index.html)
 
-> > > > > > > 75638e9c890e49877ccc39048246b3392ae2b24a
-
 ## Tech requirements
 
 - HTML5
